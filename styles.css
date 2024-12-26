@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../child-adult-holding-money-jar-donation-saving-concept_49149-1117.avif') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+header {
+    background-color: #393838;
+    color: white;
+    padding: 20px ;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px /*Vertical offset*/ 4px /*Blur radius*/ rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cause {
+    margin-bottom: 30pc;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.progress {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 20px;
+}
+.progress-bar {
+    height: 100%;
+    background-color: #28a745;
+}
+button {
+    background-color: #393838;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #8d8d8d;
+}
+.login-container, .register-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-container input, .register-container input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#donation-summary {
+    display: none;
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#donation-summary h3 {
+    margin-top: 0;
+}
